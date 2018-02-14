@@ -1,0 +1,165 @@
+*{padding:0; margin:0;  }
+html,body{
+	height:100%;
+	width:100%;
+	overflow:hidden;
+}
+body{
+	background:linear-gradient(to bottom,#26404F,#97A4AB);
+}
+/*小图片的设置*/
+.photo_min{
+	height:100%;
+	width:100%;
+	position:relative;
+}
+.min{
+	border:7px white solid;
+	box-shadow:4px 4px 3px #2F4F4F;
+	position:absolute;
+}
+.min:hover{
+	cursor:pointer;
+	box-shadow:#2F4F4F 0px 8px 10px;
+}
+#i01{
+	top:50%;
+	left:15%;
+}
+#i02{
+	top:13%;
+	left:20%;
+}
+#i03{
+	top:54%;
+	left:55%;
+}
+#i04{
+	top:13%;
+	left:30%;
+}
+#i05{
+	top:20%;
+	left:45%;
+}
+#i06{
+	top:25%;
+	left:12%;
+}
+
+#i07{
+	top:40%;
+	left:44%;
+}
+#i08{
+	top:58%;
+	left:78%;
+}
+#i09{
+	top:74%;
+	left:65%;
+}
+#i10{
+	top:22%;
+	left:57%;
+}
+#i11{
+	top:74%;
+	left:35%;
+}
+#i12{
+	top:55%;
+	left:34%;
+}
+#i13{
+	top:78%;
+	left:24%;
+}
+#i14{
+	top:32%;
+	left:68%;
+}
+#i15{
+	top:29%;
+	left:35%;
+}
+#i16{
+	top:15%;
+	left:70%;
+}
+#i17{
+	top:63%;
+	left:26%;
+}
+#i18{
+	top:72%;
+	left:74%;
+}
+#i19{
+	top:81%;
+	left:46%;
+}
+#i20{
+	top:69%;
+	left:44%;
+}
+#i21{
+	top:72%;
+	left:15%;
+}
+#i22{
+	top:38%;
+	left:25%;
+}
+#i23{
+	top:29%;
+	left:79%;
+}
+#i24{
+	top:51%;
+	left:67%;
+}
+
+/*大图片的设置*/
+.photo{
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	/*padding:20px;*/
+	z-index:1002;
+	overflow:auto;
+}
+.bg_overlay{
+	display: none; 
+    position: absolute; 
+    top: 0%; 
+    left: 0%; 
+    width: 100%; 
+    height: 100%; 
+    background-color: #26404F; 
+    z-index:1001; 
+    -moz-opacity: 0.8; 
+    opacity:.80; 
+    filter: alpha(opacity=88) ;
+}
+.max{
+	margin:5% auto;
+	display:block;
+	border:15px solid white;
+	box-shadow:8px 8px 5px #292929;
+}
+.close{
+	position:absolute;
+	top:0px;
+	right:0px;
+	width:60px;
+	height:60px;
+}
+.close:hover{
+	cursor:pointer;
+	
+}
+

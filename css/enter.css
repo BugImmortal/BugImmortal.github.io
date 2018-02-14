@@ -1,0 +1,133 @@
+*{
+	padding:0;margin:0;
+	/*边距初始值为0*/
+	
+}
+html,body{
+	height:100%;
+	width:100%;
+	overflow:hidden;
+	
+	/*网页背景色*/
+	/*background-color:#26404F;*/
+	
+}
+body{
+	background:linear-gradient(to bottom,#26404F,#97A4AB) ;
+}
+.logo{
+	/*中心区上不空100像素*/
+	height:100px;
+}
+.center{
+	/*设置中心区的大小及位置*/
+	width:900px;
+	height:400px;
+	background-color:#FFF;
+	margin:0 auto;
+	
+}
+.left{
+	/*中心区左侧的大小及位置*/
+	width:400px;
+	height:400px;
+	background-color:#D6504E;
+	
+	float:left;
+	position:relative;
+}
+.right{
+	/*中心区右侧的大小及位置*/
+	width:500px;
+	height:400px;
+	float:left;
+}
+/*设置字体*/
+.left p{
+	/*左侧字体*/
+	color:#FFF;
+	/*text-align:center;*/
+}
+
+.l1{
+	
+}
+.l2{
+	margin-top:80px;
+	margin-left:60px;
+	font-size:13px;
+}
+
+#niu{
+	margin-right:;
+	margin-bottom;
+	width:80px;
+	height:80px;
+	position:absolute;
+	right:40px;
+	bottom:22px;
+}
+form{
+	/*右侧表单*/
+	margin-left:60px;
+	margin-top:40px;
+}
+#p1{
+	color:#DC504B;
+	font-size:30px;
+	/*font-weight:bold;*/
+}
+#p2{
+	margin-top:60px;
+	position:relative;
+	width:300px;
+}
+#p3{
+	margin-top:40px;
+	position:relative;
+	width:300px;
+}
+#p4{
+	margin-top:60px;
+	
+		
+}
+#code,#pwd{
+	border:0;
+	color:#CCC;
+	outline:none;
+	line-height:33px;
+	font-size:16px;
+}
+#code1,#pwd1{
+	border:0;
+	color:#D6504E;
+	outline:none;
+	line-height:30px;
+	font-size:16px;
+}
+#i1,#i2{
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+	margin-left:75px;
+}
+.hr1{
+	border:2px solid #ccc;
+	width:300px;
+}
+#sub{
+	background-color:#FFF;
+	color:#D6504E;
+	font-weight:bold;
+	font-size:15px;
+	border:2px solid #D6504E ;
+	height:40px;
+	width:85px;
+	border-radius:30px;
+	outline:none;
+}
+#sub:hover{
+	box-shadow:1px 1px 1px #2F4F4F;
+	cursor:pointer;
+}
