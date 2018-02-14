@@ -1,4 +1,4 @@
-var input ;
+https://bugimmortal.github.io/index.htmlvar input ;
 var v1;
 var v2;
 function f1(){
@@ -40,7 +40,7 @@ function f4(){
 
 function jump(){
 	if(input.value=="亲爱的牛牛" && input1.value=="1314"){
-		window.location.href="enter.html";
+		window.location.href="https://bugimmortal.github.io/enter.html";
 
 	}else{
 		alert("帐号或密码错误");
