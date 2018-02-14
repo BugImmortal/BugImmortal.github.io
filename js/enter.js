@@ -40,7 +40,7 @@ function f4(){
 
 function jump(){
 	if(input.value=="亲爱的牛牛" && input1.value=="1314"){
-		window.location.href="index.html";
+		window.location.href="enter.html";
 
 	}else{
 		alert("帐号或密码错误");
